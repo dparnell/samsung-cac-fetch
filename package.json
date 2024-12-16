@@ -1,0 +1,25 @@
+{
+    "name": "samsung-cac-fetch",
+    "version": "1.0.0",
+    "description": "A tool to fetch the auth token for a Samsung CAC air conditioner",
+    "main": "index.js",
+    "author": "Daniel Parnell <me@danielparnell.com>",
+    "license": "MIT",
+    "private": false,
+    "type": "module",
+    "scripts": {
+        "build": "tsc",
+	"fetch": "node ./dist/index.js"
+    },
+
+    "dependencies": {
+	"node-forge": "^1.3.1",
+	"samsung-cac": "^1.0.8",
+	"ts-node": "^10.9.2",
+	"typescript": "^5.7.2"
+    },
+    "devDependencies": {
+	"@types/node": "^22.10.2",
+	"@types/node-forge": "^1.3.11"
+    }
+}
