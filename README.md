@@ -13,6 +13,8 @@ npm install
 # build the code
 npm run build
 
-# get your access code
+# press the auth button on the wifi box and get your access code
 npm run fetch 192.168.1.123
 ```
+
+*NOTE: after pressing the button on the device you have about 10 seconds to run the command*
